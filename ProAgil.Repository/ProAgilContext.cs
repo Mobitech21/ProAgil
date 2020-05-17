@@ -11,7 +11,7 @@ namespace ProAgil.Respository
         IdentityUserClaim<int>, UserRole, IdentityUserLogin<int>, 
         IdentityRoleClaim<int>, IdentityUserToken<int>>
         
-        
+             
     {
         public ProAgilContext(DbContextOptions<ProAgilContext> options) :base(options) {}
         public DbSet<Evento>Eventos { get; set; }
