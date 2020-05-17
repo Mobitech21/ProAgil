@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+ @import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+
+ @import '../node_modules/ngx-bootstrap/datepicker/bs-datepicker.css';
+
+
+ #toast-container > div{
+   opacity: 1;
+
+ }
+
+
+#DivLateral{
+  position:relative;
+  border-width:2px;
+  width:100px;
+  height: 100px;
+  background-color: peachpuff;
+  float: left;
+}
+#DivA{
+  position: relative;
+  border-width:2px;
+  width: 100px;
+  height: 100px;
+  left:0px;
+  background-color: red;
+  float: left;
+}
+
+
+
